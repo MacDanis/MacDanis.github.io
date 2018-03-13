@@ -271,6 +271,12 @@ padding-left: 0px;
   }
 }
 
+@media(max-width:260px){
+  #szyja {min-height: 100px!important;}
+  #obojczyk h1{
+    font-size:24px;}
+  #szyja p{font-size:13px!important;}}
+
 
 /*** TO DO
 1. Zciaśnić stronę żeby w 1920 wyglądała po ludzku
