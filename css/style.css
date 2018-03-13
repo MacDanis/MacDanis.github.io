@@ -1,0 +1,256 @@
+body {
+font-family: Comic Sans MS, Arial, Comic Sans MS;
+  font-size: 15px;
+  line-size: 1.5;
+  font: 15px/1.5 Arial, Comic Sans MS, Helvetica;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header{
+  background:#35424a;
+  color: #ffffff;
+  padding: 25px;
+  min-height: 70px;
+  border-bottom: #e8491d 5px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: Uppercase;
+  font-size: 16px;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  }
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0px 18px 0px 18px;
+}
+
+header nav {
+  float: right;
+  margin-top: 25px;
+  
+}
+
+header #tytul {
+  float:left;
+  margin-top: 10px;
+}
+
+header #tytul h1 {
+  margin: 0;
+  font-size: 40px;
+  font-family: Comic Sans MS; 
+}
+
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+  color: #e8491d;
+}
+
+/* SZYJA */
+#szyja {
+  min-height: 700px;
+  background: url("http://mydoggy.rocks/wp-content/uploads/2014/10/Cream-Pomeranian-wallpaper.jpg")no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+#szyja h1{
+margin-top: 200px;
+font-size: 55px;
+margin-bottom: 15px;
+}
+#szyja p{
+  font-size: 27px;
+}
+
+/* OBOJCZYK */
+
+
+#obojczyk {
+  padding: 15px;
+  color: white;
+  background: #35424a;
+  border-top: #e8491d 5px solid;
+}
+
+#obojczyk h1{
+float: left;
+  font-size: 30px;
+}
+
+#obojczyk #sharepom{
+float: right;
+margin-top:28px;
+}
+
+#obojczyk input{
+padding: 4px;
+height: 24px;
+  width:255px;
+  margin-left:20px;
+}
+
+.button_1{
+height: 36px;
+background: #e8491d;
+border: 0;
+padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+/* FOOTER */
+
+footer {
+  padding:20px;
+    margin-top:20px;
+    color: white;
+  background-color: #e8491d;
+    text-align: center;
+}
+
+
+/* TEKST */
+
+article p {
+  font-size:16px;
+  column-count:2;
+  column-gap: 25px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left:  20px;
+  margin-right: 20px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: #e8491d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media querries**/
+@media(max-width:941px){
+#obojczyk form{display:inline-block;
+ }
+#obojczyk input{width:40vw;
+  top-margin:0px;
+  margin-left:0px;
+  margin-bottom:5px;
+ }
+  
+#obojczyk button{width:80px;
+ 
+ }
+  #obojczyk h1{text-align:center;
+   
+ 
+  }
+  #obojczyk #sharepom{margin-top:0px;
+}
+}
+
+
+/* media2 */
+@media(max-width:643px)
+{
+  #obojczyk form{display:inline-block;
+ }
+#obojczyk input{width:100vw;
+  top-margin:0px;
+  margin-left:0px;
+  margin-bottom:5px;
+  padding-left:0%;
+ }
+  
+#obojczyk button{width:100vw;
+ padding-right:30vw;
+ }
+  #obojczyk h1{text-align:center; 
+    margin-left:
+  }
+  #obojczyk #sharepom{margin-top:0px;
+}
+  #szyja {min-height: 300px!important}
+  #szyja h1{margin-top:33px!important;
+  font-size:33px!important;
+  margin-bottom:0px!important;}
+  #szyja p{font-size:22px!important;}
+}
+
+@media(max-width:790px){
+  header #tytul,
+  header nav,
+  header nav li{
+  float:none;
+    text-align:center;
+    width:100%;
+  }
+  #szyja h1{margin-top:90px;
+  font-size:40px;
+  margin-bottom:0px;}
+  #szyja p{font-size:25px;}
+  #szyja {min-height: 400px} 
+}
+
+@media(max-width:1180px){
+    #szyja {min-height: 600px}
+ 
+}
+
+
+
+/*** TO DO
+1. Zciaśnić stronę żeby w 1920 wyglądała po ludzku
+2. Automatyczne dopasowywanie bo to jest dramat kurwa
+3. Podstrony
+4. Galeria
+***/
